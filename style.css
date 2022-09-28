@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #1F2937;
+    font-weight: 24px;
+}
+
+nav > h1,
+nav > a {
+    color: #F9FAF8;
+}
