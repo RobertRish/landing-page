@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto';
 }
@@ -5,9 +10,34 @@ body {
 header {
     background-color: #1F2937;
     font-weight: 24px;
+    display: flex;
 }
 
-nav > h1,
-nav > a {
-    color: #F9FAF8;
+nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
 }
+
+header-container-1 {
+    display: flex;
+    flex: 1;
+}
+
+header-container-2 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+
