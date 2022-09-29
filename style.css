@@ -1,53 +1,53 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 header {
-    background-color: #1F2937;
-    font-weight: 24px;
-    display: flex;
+  background-color: #1f2937;
+  font-weight: 24px;
+  display: flex;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 5px solid rgb(17, 134, 180);
+  width: 100%;
 }
 
-header-container-1 {
-    display: flex;
-    flex: 1;
-    border: 10px solid red;
-    box-sizing: border-box;
-    height: 50px;
+.header-container-1 {
+  display: flex;
+  flex: 1;
+  border: 2px solid rgb(10, 224, 10);
+  align-items: center;
+  height: 50px;
+  justify-content: center;
 }
 
-header-container-2 {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    border: 10px solid red;
-    box-sizing: border-box;
-    height: 50px;
+.header-container-2 {
+  display: flex;
+  flex: 1;
+  border: 2px solid rgb(12, 228, 12);
+  height: 50px;
+  align-items: center;
 }
 
 h1 {
-    color: #F9FAF8;
-    font-weight: bold;
-    border: 2px solid red;
-    box-sizing: border-box;
+  color: #f9faf8;
+  font-weight: bold;
+  border: 2px solid red;
 }
 
 a {
-    color: lightgray;
-    text-decoration: none;
-    border: 2px solid red;
-    box-sizing: border-box;
+  color: lightgray;
+  text-decoration: none;
+  border: 2px solid red;
 }
-
-
