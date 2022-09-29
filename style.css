@@ -8,6 +8,8 @@ body {
   font-family: "Roboto";
 }
 
+/* header styles */
+
 header {
   background-color: #1f2937;
   font-weight: 24px;
@@ -19,35 +21,41 @@ nav {
   align-items: center;
   justify-content: center;
   height: 50px;
-  border: 5px solid rgb(17, 134, 180);
+  /* border: 5px solid rgb(17, 134, 180); */
   width: 100%;
 }
 
 .header-container-1 {
   display: flex;
   flex: 1;
-  border: 2px solid rgb(10, 224, 10);
+  /* border: 2px solid rgb(10, 224, 10); */
   align-items: center;
   height: 50px;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 100px;
 }
 
 .header-container-2 {
   display: flex;
   flex: 1;
-  border: 2px solid rgb(12, 228, 12);
+  /* border: 2px solid rgb(12, 228, 12); */
   height: 50px;
   align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 100px;
 }
 
 h1 {
   color: #f9faf8;
   font-weight: bold;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 a {
   color: lightgray;
   text-decoration: none;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
+
+
