@@ -23,6 +23,7 @@ nav {
   height: 50px;
   /* border: 5px solid rgb(17, 134, 180); */
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .header-container-1 {
@@ -32,7 +33,7 @@ nav {
   align-items: center;
   height: 50px;
   justify-content: flex-start;
-  padding-left: 100px;
+  padding-left: 10%;
 }
 
 .header-container-2 {
@@ -43,7 +44,8 @@ nav {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  padding-right: 100px;
+  padding-right: 10%;
+
 }
 
 h1 {
@@ -58,4 +60,65 @@ a {
   /* border: 2px solid red; */
 }
 
+/* Random information hero section */
 
+section {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    /* border: 2px solid red; */
+    background-color: #1f2937;
+    /* flex-wrap: wrap; */
+}
+
+.section-container-1 {
+    /* flex: 1 1 0; */
+    /* border: 2px solid rgb(10, 224, 10); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-left: 10%;
+    width: 50vw;
+}
+
+.section-container-2 {
+    display: flex;
+    /* flex: 1 1 0; */
+    /* border: 2px solid rgb(10, 224, 10); */
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+section p {
+    /* border: 2px solid red; */
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.placeholder-image {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45%;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.507);
+    color: #f9faf8;
+}
