@@ -113,6 +113,10 @@ button {
     font-weight: bolder;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .placeholder-image {
     /* border: 2px solid red; */
     display: flex;
@@ -128,7 +132,7 @@ button {
 
 .random-info {
     height: 500px;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,10 +158,6 @@ h3 {
     margin-top: 30px;
 }
 
-.card {
-    /* border: 2px solid rgb(0, 255, 255); */
-}
-
 .illustration {
     height: 175px;
     border: 4px solid rgb(75, 151, 223);
@@ -168,4 +168,35 @@ h3 {
     text-align: center;
     font-weight: lighter;
     margin-top: 5px;
+}
+
+/* Inspiring quote section styles */
+
+article {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    /* border: 2px solid; */
+    width: 60vw;
+}
+
+.author-wrap {
+    /* border: 2px solid; */
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    /* border: 2px solid; */
+    border-top: none;
+    font-weight: 500;
 }
