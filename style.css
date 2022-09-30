@@ -65,8 +65,8 @@ a {
 section {
     display: flex;
     justify-content: center;
-    height: 30vh;
-    /* border: 2px solid red; */
+    height: 500px;
+    border: 2px solid red;
     background-color: #1f2937;
     /* flex-wrap: wrap; */
 }
@@ -121,4 +121,30 @@ button {
     width: 80%;
     background-color: rgba(128, 128, 128, 0.507);
     color: #f9faf8;
+}
+
+/* Random information section styles */
+
+h3 {
+    border: 2px solid rgb(10, 224, 10);
+    height: 100px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.info-container {
+    display: flex;
+}
+
+.card {
+    border: 2px solid red;
+    width: 15%;
+    height: 50px;
+}
+
+.subtext {
+
 }
