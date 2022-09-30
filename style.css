@@ -60,7 +60,7 @@ a {
   /* border: 2px solid red; */
 }
 
-/* Rhero section */
+/* hero section */
 
 section {
     display: flex;
@@ -137,6 +137,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 h3 {
