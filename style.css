@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 /* header styles */
@@ -66,7 +66,7 @@ section {
     display: flex;
     justify-content: center;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #1f2937;
     /* flex-wrap: wrap; */
 }
@@ -93,7 +93,7 @@ section {
 
 h2 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 500;
     color: #f9faf8;
 }
 
@@ -101,6 +101,7 @@ section p {
     /* border: 2px solid red; */
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 300;
 }
 
 button {
@@ -125,10 +126,19 @@ button {
 
 /* Random information section styles */
 
+.random-info {
+    height: 500px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h3 {
-    border: 2px solid rgb(10, 224, 10);
+    /* border: 2px solid rgb(10, 224, 10); */
     height: 100px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: 500;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -137,14 +147,25 @@ h3 {
 
 .info-container {
     display: flex;
+    gap: 33px;
+    /* border: 2px solid orange; */
+    width: 800px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .card {
-    border: 2px solid red;
-    width: 15%;
-    height: 50px;
+    /* border: 2px solid rgb(0, 255, 255); */
+}
+
+.illustration {
+    height: 175px;
+    border: 4px solid rgb(75, 151, 223);
+    border-radius: 15px;
 }
 
 .subtext {
-
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5px;
 }
