@@ -200,3 +200,57 @@ article {
     border-top: none;
     font-weight: 500;
 }
+
+/* CTA Section styles */
+
+.cta {
+    /* border: 2px solid; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-blue {
+    /* border: 2px solid red; */
+    height: 160px;
+    width: 80vw;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #3882f6;
+
+}
+
+.sign-up-flex {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+
+}
+
+.sign-up {
+    /* border: 2px solid yellow; */
+    color: white;
+
+}
+
+.sign-up-caption {
+    /* border: 2px solid green; */
+    font-weight: 100;
+    color: white;
+    font-size: smaller;
+
+}
+
+.button-cta {
+    border: 2px solid white;
+    margin-top: 65px;
+}
+
+/* Footer styles */
+
